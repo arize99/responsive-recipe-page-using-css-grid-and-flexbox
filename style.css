@@ -1,0 +1,123 @@
+body {
+    background-color: antiquewhite;
+    color: hsl(30, 10%, 34%);
+    line-height: 30px;
+}
+
+h1 {
+    font-family: Young serif;
+    color: hsl(24, 5%, 18%);
+}
+
+h2 {
+    font-family: Young serif;
+    color: hsl(14, 45%, 36%);
+}
+
+p {
+    font-family: Outfit;
+    font-weight: 350;
+}
+
+/*li-num {
+    color: hsl(14, 45%, 36%);
+}*/
+
+ul, ol {
+    font-family: Outfit;
+    font-weight: 350;
+}
+ul {
+    list-style-type: square;
+}
+
+/* Style for unordered list markers (bullet points) */
+ul.custom-list li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+/* Style for ordered list markers (numbers) */
+ol.custom-list li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+/* Additional styling for list items */
+ul.custom-list li,
+ol.custom-list li {
+    color: hsl(30, 10%, 34%); 
+}
+
+.container {
+    margin: 290px;
+    background-color: white;
+    border-radius: 15px;
+}
+.container-inside {
+    margin: 50px;
+}
+
+.top-image {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-top: 20px;
+}
+
+#omelette-img {
+    width: 700px;
+    object-fit: contain;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.prep-time-container {
+    background-color: hsl(330, 100%, 98%);
+    margin-top: 20px;
+    padding: 20px;
+    font-family: Outfit;
+    border-radius: 15px;
+}
+
+.prep-time-header {
+    font-size: 18px;
+    font-weight: 700;
+    color:hsl(332, 51%, 32%)
+}
+
+.first-para {
+    font-family: Outfit;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(199, 198, 198);
+}
+
+.group {
+    color:  hsl(14, 45%, 36%);
+    background-color: hsl(332, 51%, 32%);
+    color: hsl(0, 0%, 100%);
+    color: hsl(330, 100%, 98%);
+    color: hsl(30, 54%, 90%);
+    color: hsl(30, 18%, 87%);
+    color: hsl(30, 10%, 34%);
+    color: hsl(24, 5%, 18%);
+}
+
+.otr {
+    color: hsl(14, 45%, 36%);
+    margin-left: 120px;
+    font-weight: 700;
+}
+
+.otl {
+    padding-right: 100px;
+    width: 110px;
+    display: inline-block;
+}
+
+.bottom-space {
+    padding-bottom: 30px;
+}
