@@ -40,14 +40,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
 
-I learned a lot of things working on thsi project.
+I learned a lot of things working on this project.
 <ul>
-<li> Setting list items has never been more convinient.</li>
-<li> Though there was some strong delibrations on how to style a particular aspect. It pays to final come to a conlusion on how best to do it.</li>
+<li> Setting list items has never been more convenient.</li>
+<li> Though there were strong deliberations on how to style a particular aspect. It pays to finally come to a conclusion on how best to do it.</li>
 <li> I was pushed to learn how to space text items as I want by spanning text in-between and using the 
-<strong>
-
-</strong>
 
 ```css
 .{
@@ -64,8 +61,8 @@ I want to make this page responsive as soon as possible. I did not start with mo
 
 ### Useful resources
 
-- [Example resource 1](https://www.w3schools.com) - This helped me with most of the CSS code supports.
-- [Example resource 2](https://www.google.com) - This is an amazing remember most of the codes I forgot. I'd recommend it to anyone still learning coding.
+- [W3Schools](https://www.w3schools.com) - This helped me with most of the CSS code supports.
+- [Google](https://www.google.com) - This is amazing search engine that helped me remember most of the codes I forgot. I'd recommend it to anyone still learning coding. 😉
 
 ## Author
 
@@ -75,6 +72,6 @@ I want to make this page responsive as soon as possible. I did not start with mo
 
 ## Acknowledgments
 
-Thank you the whole dev community, thank you to everyone who puts out coding content both video and texts out there. 💪🏽 This Kudos goes to you.
+Thank you to the whole dev community, and thank you to everyone who puts out coding content both video and text out there. 💪🏽 This Kudos goes to you.
 
-Thank youso much [Frontend Mentor](https://www.frontendmentor.io) 💖 for this challenge.
+Thank you so much [Frontend Mentor](https://www.frontendmentor.io) 💖 for this challenge.
