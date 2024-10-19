@@ -1,123 +1,105 @@
-body {
-    background-color: antiquewhite;
-    color: hsl(30, 10%, 34%);
-    line-height: 30px;
+* {
+    margin: 0;
+    padding: 0;
 }
+body {
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(30, 10%, 34%);
+}
+p {
+    font-size: 16px;
+    font-family: Outfit, sans-serif;
+}
+.container {
+    margin: auto;
+    width: 80%;
+    border-radius:1em;
+    background-color: white;
+}
+/* Image style */
+.dish-image {
+width: 100%;
+height: auto;
+object-fit: cover;
+border-radius: 1em;
+}
+
+/* Image style ends */
+/*  */
+.top-article {
+    padding: 2em;
+}
+
+/*  */
+.preparation-time {
+    margin: 0 30px 0 30px;
+    background-color: hsl(330, 100%, 98%);
+    padding: 2em;
+    border-radius: 1em;
+    font-family: Outfit, sans-serif;
+}
+/*  */
+.ingredients {
+    margin: 0 30px 0 30px;
+    padding: 2em;
+    border-bottom: 1px solid grey;
+    font-family: Outfit, sans-serif;
+}
+.ingredients ul {
+    list-style-type: square;
+    }
+/*  */
+.instructions {
+    margin: 0 30px 0 30px;
+    padding: 2em;
+    border-bottom: 1px solid grey;
+    font-family: Outfit, sans-serif;
+}
+.preparation-time li::marker {
+        color: hsl(332, 51%, 32%);
+    }
 
 h1 {
-    font-family: Young serif;
-    color: hsl(24, 5%, 18%);
+    font-family: Young Serif, sans-serif;
+    color: hsl(14, 45%, 36%);
 }
-
 h2 {
-    font-family: Young serif;
+    
     color: hsl(14, 45%, 36%);
+    margin-top: 0;
+    font-family: Young Serif, sans-serif;
 }
-
-p {
-    font-family: Outfit;
-    font-weight: 350;
+h3 {
+    color: hsl(332, 51%, 32%);
 }
-
-/*li-num {
-    color: hsl(14, 45%, 36%);
-}*/
-
-ul, ol {
-    font-family: Outfit;
-    font-weight: 350;
+/* Nutrition Section */
+.nutrition-card {
+    margin: 0 30px 0 30px;
+    padding: 2em;
+    font-family: Outfit, sans-serif;
+}        
+table {
+    width: 100%;
+    border-collapse: collapse;
 }
-ul {
-    list-style-type: square;
+tr {
+    border-bottom: 1px solid #eee;
 }
-
-/* Style for unordered list markers (bullet points) */
-ul.custom-list li::marker {
-    color: hsl(14, 45%, 36%);
+tr:last-child {
+    border-bottom: none;
 }
-
-/* Style for ordered list markers (numbers) */
-ol.custom-list li::marker {
-    color: hsl(14, 45%, 36%);
+td {
+    padding: 10px 0;
+}
+td:last-child {
+    text-align: right;
     font-weight: bold;
 }
+/* Nutrition Section Ends */
 
-/* Additional styling for list items */
-ul.custom-list li,
-ol.custom-list li {
-    color: hsl(30, 10%, 34%); 
-}
-
-.container {
-    margin: 290px;
-    background-color: white;
-    border-radius: 15px;
-}
-.container-inside {
-    margin: 50px;
-}
-
-.top-image {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    padding-top: 20px;
-}
-
-#omelette-img {
-    width: 700px;
-    object-fit: contain;
-    margin: 10px;
-    border-radius: 15px;
-}
-
-.prep-time-container {
-    background-color: hsl(330, 100%, 98%);
-    margin-top: 20px;
-    padding: 20px;
-    font-family: Outfit;
-    border-radius: 15px;
-}
-
-.prep-time-header {
-    font-size: 18px;
-    font-weight: 700;
-    color:hsl(332, 51%, 32%)
-}
-
-.first-para {
-    font-family: Outfit;
-}
-
-hr {
-    border: none;
-    height: 1px;
-    background-color: rgb(199, 198, 198);
-}
-
-.group {
-    color:  hsl(14, 45%, 36%);
-    background-color: hsl(332, 51%, 32%);
-    color: hsl(0, 0%, 100%);
-    color: hsl(330, 100%, 98%);
-    color: hsl(30, 54%, 90%);
-    color: hsl(30, 18%, 87%);
-    color: hsl(30, 10%, 34%);
-    color: hsl(24, 5%, 18%);
-}
-
-.otr {
-    color: hsl(14, 45%, 36%);
-    margin-left: 120px;
-    font-weight: 700;
-}
-
-.otl {
-    padding-right: 100px;
-    width: 110px;
-    display: inline-block;
-}
-
-.bottom-space {
-    padding-bottom: 30px;
-}
+/* Media queries */
+@media screen and (max-width: 375px) {
+        .container {
+            max-width: 400px;
+        }
+    }
